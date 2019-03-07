@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="Maven: org.apache.httpcomponents:httpclient:unknown">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/Library/Maven/repository/org/apache/httpcomponents/httpclient/unknown/httpclient-unknown.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC>
       <root url="jar://$USER_HOME$/Library/Maven/repository/org/apache/httpcomponents/httpclient/unknown/httpclient-unknown-javadoc.jar!/" />
     </JAVADOC>
