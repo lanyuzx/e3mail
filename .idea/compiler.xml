@@ -15,13 +15,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="e3-common" target="1.7" />
-      <module name="e3-manager" target="1.7" />
-      <module name="e3-manager-dao" target="1.7" />
-      <module name="e3-manager-interface" target="1.7" />
-      <module name="e3-manager-pojo" target="1.7" />
-      <module name="e3-manager-service" target="1.7" />
-      <module name="e3-manager-web" target="1.7" />
+      <module name="e3-common" target="1.8" />
+      <module name="e3-manager" target="1.8" />
+      <module name="e3-manager-dao" target="1.8" />
+      <module name="e3-manager-interface" target="1.8" />
+      <module name="e3-manager-pojo" target="1.8" />
+      <module name="e3-manager-service" target="1.8" />
+      <module name="e3-manager-web" target="1.8" />
       <module name="e3-parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
