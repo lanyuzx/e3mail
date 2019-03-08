@@ -12,14 +12,18 @@
 
     <context:component-scan base-package="cn.e3mall.controller" />
     <mvc:annotation-driven  />
+    <mvc:default-servlet-handler/>
     <bean
             class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/jsp/" />
         <property name="suffix" value=".jsp" />
     </bean>
+    <!--配置资源映射-->
+    <!--<mvc:resources mapping="/css/**" location="/css/"/>-->
+    <!--<mvc:resources mapping="/js/**" location="/js/"/>-->
     <!-- 引用dubbo服务 -->
     <dubbo:application name="e3-manager-web" organization="jlc"/>
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
-    <dubbo:reference interface="cn.e3mail.service.LLItemService" id="LLItemServiceImpl" />
+    <dubbo:reference interface="cn.e3mail.service.LLItemService" id="LLItemServiceImpl" timeout="60000" />
 
 </beans>
