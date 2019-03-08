@@ -28,8 +28,6 @@
     <artifactId>e3-manager-interface</artifactId>
     <packaging>jar</packaging>
     <!-- TODO project name  -->
-    <name>quickstart</name>
-
     <dependencies>
         <dependency>
             <groupId>com.e3mail</groupId>
