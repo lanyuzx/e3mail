@@ -19,8 +19,8 @@
         <property name="suffix" value=".jsp" />
     </bean>
     <!--配置资源映射-->
-    <!--<mvc:resources mapping="/css/**" location="/css/"/>-->
-    <!--<mvc:resources mapping="/js/**" location="/js/"/>-->
+    <mvc:resources mapping="/css/**" location="/css/" cache-period="31536000"/>
+    <mvc:resources mapping="/js/**" location="/js/" cache-period="31536000"/>
     <!-- 引用dubbo服务 -->
     <dubbo:application name="e3-manager-web" organization="jlc"/>
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
