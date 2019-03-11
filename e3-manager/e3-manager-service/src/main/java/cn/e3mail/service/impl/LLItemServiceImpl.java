@@ -24,7 +24,7 @@ public class LLItemServiceImpl implements LLItemService {
 
     @Override
     public LLPageCommon<TbItem> getGridResult(Integer row, Integer pagesize) {
-        PageHelper.startPage(row);
+        PageHelper.startPage(row,pagesize);
         TbItemExample itemExample = new TbItemExample();
        List <TbItem> itemList =  itemMapper.selectByExample(itemExample);
         PageInfo<TbItem> pageInfo = new PageInfo<>(itemList);

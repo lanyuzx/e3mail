@@ -5,7 +5,7 @@
 <configuration>
   <plugins>
       <plugin interceptor="com.github.pagehelper.PageInterceptor">
-          <!--指定数据库方言-->
+          <!--指定数据库方言 4.00版本后就不在指定方言 自动适配  如果指定报错-->
           <!--<property name="dialect" value="mysql"/>-->
       </plugin>
   </plugins>
