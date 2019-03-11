@@ -24,6 +24,6 @@
     <!-- 引用dubbo服务 -->
     <dubbo:application name="e3-manager-web" organization="jlc"/>
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
-    <dubbo:reference interface="cn.e3mail.service.LLItemService" id="LLItemServiceImpl" timeout="60000" />
+    <dubbo:reference interface="cn.e3mail.service.LLItemService" id="LLItemServiceImpl" timeout="6000" />
 
 </beans>

@@ -23,8 +23,6 @@
           <element id="library" level="project" name="Maven: javax.persistence:persistence-api:1.0" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.8" />
           <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
-          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:5.1.8" />
-          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:1.2" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.11" />
           <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.6.0" />
           <element id="archive" name="e3-manager-interface-1.0-SNAPSHOT.jar">
@@ -53,6 +51,8 @@
           <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
           <element id="library" level="project" name="Maven: io.netty:netty:3.7.0.Final" />
           <element id="library" level="project" name="Maven: com.github.sgroschupf:zkclient:0.1" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:5.1.2" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:1.0" />
           <element id="archive" name="e3-common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="e3-common" />
           </element>
