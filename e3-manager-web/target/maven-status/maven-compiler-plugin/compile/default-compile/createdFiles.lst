@@ -1,2 +1,3 @@
-cn/e3mall/controller/LLItemController.class
 cn/e3mall/controller/LLIndexController.class
+cn/e3mall/controller/LLItemCategoryController.class
+cn/e3mall/controller/LLItemController.class

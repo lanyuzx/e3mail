@@ -23,7 +23,7 @@ public class LLItemController {
 
     @RequestMapping("/item/list")
     @ResponseBody
-    public LLPageCommon<TbItem> getItemList(int rows , int page) {
+    public LLPageCommon<TbItem> getItemList(int page , int rows) {
         LLPageCommon<TbItem> pageCommon =   itemService.getGridResult(page, rows);
         return pageCommon;
     }
