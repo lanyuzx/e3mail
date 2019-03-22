@@ -7,40 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c529200-c8d5-4452-8a04-6ae8e4b92f84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-common/src/main/java/cn/e3mial/common/utils/IDUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-common/src/main/java/cn/e3mial/common/utils/TaotaoResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager-web/src/main/java/cn/e3mall/controller/LLPictureController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager-web/src/main/resources/conf/resources.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/e3_manager_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/e3_manager_web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/e3_manager_service_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/e3_manager_service_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/e3-manager-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/e3-manager-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e3-manager-web/src/main/java/cn/e3mall/controller/LLItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/src/main/java/cn/e3mall/controller/LLItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/target/classes/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/tomcat/logs/access_log.2019-03-12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3-manager-web/src/main/webapp/jsp/item-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/src/main/webapp/jsp/item-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/tomcat/logs/access_log.2019-03-22" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/target/tomcat/logs/access_log.2019-03-22" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/index_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e3-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/item_002dadd_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/item_002dlist_jsp.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-interface/src/main/java/cn/e3mail/service/LLItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-interface/src/main/java/cn/e3mail/service/LLItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/e3-manager-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/e3-manager-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/java/cn/e3mail/service/impl/LLItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/java/cn/e3mail/service/impl/LLItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service/WEB-INF/classes/conf/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service/WEB-INF/classes/mybatis/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service/WEB-INF/classes/spring/applicationContext-dao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service/WEB-INF/classes/spring/applicationContext-service.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service/WEB-INF/classes/spring/applicationContext-trans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/tomcat/logs/access_log.2019-03-12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/tomcat/logs/access_log.2019-03-22" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/tomcat/logs/access_log.2019-03-22" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/e3-parent/target/" />
     <ignored path="$PROJECT_DIR$/e3-common/target/" />
@@ -68,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/java/cn/e3mail/service/impl/LLItemServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+            <state relative-caret-position="315">
+              <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,42 +56,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/cn/e3mall/pojo/TbItem.java">
+        <entry file="file://$PROJECT_DIR$/e3-manager-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-876">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="466">
+              <caret line="84" column="21" selection-start-line="81" selection-start-column="7" selection-end-line="84" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e3-common/src/main/java/cn/e3mall/common/pojo/LLTreeNodeCommon.java">
+        <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e3-common/src/main/java/cn/e3mial/common/utils/IDUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            <state relative-caret-position="490">
+              <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -121,11 +76,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-interface/src/main/java/cn/e3mail/service/LLItemService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="396">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/e3-manager-web/src/main/webapp/jsp/item-list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="54" column="41" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -139,15 +103,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/e3-manager-web/src/main/java/cn/e3mall/controller/LLPictureController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+            <state relative-caret-position="396">
+              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#622#641#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/e3-manager-web/src/main/java/cn/e3mall/controller/LLItemController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="48" column="46" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -162,24 +135,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e3-manager-web/src/main/webapp/js/common.js">
+        <entry file="file://$PROJECT_DIR$/e3-manager-web/src/main/webapp/jsp/item-edit.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="120" column="40" selection-start-line="120" selection-start-column="40" selection-end-line="120" selection-end-column="40" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e3-manager-web/src/main/java/cn/e3mall/controller/LLItemController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+            <state relative-caret-position="-839">
+              <caret column="43" selection-start-column="43" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -228,11 +187,9 @@
         <option value="$PROJECT_DIR$/e3-manager-web/src/main/webapp/jsp/file-upload.jsp" />
         <option value="$PROJECT_DIR$/e3-manager-web/src/main/webapp/jsp/item-add.jsp" />
         <option value="$PROJECT_DIR$/e3-manager-web/src/main/webapp/jsp/item-edit.jsp" />
-        <option value="$PROJECT_DIR$/e3-manager-web/src/main/webapp/jsp/item-list.jsp" />
         <option value="$PROJECT_DIR$/e3-manager-web/src/main/java/cn/e3mall/controller/LLIndexController.java" />
         <option value="$PROJECT_DIR$/e3-common/src/main/java/cn/e3mall/common/pojo/LLPageCommon.java" />
         <option value="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/resources/spring/applicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/e3-manager/e3-manager-service/pom.xml" />
         <option value="$PROJECT_DIR$/e3-manager/pom.xml" />
         <option value="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/resources/mybatis/SqlMapConfig.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/idea.vmoptions" />
@@ -248,10 +205,12 @@
         <option value="$PROJECT_DIR$/e3-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/e3-common/src/main/java/cn/e3mial/common/utils/IDUtils.java" />
         <option value="$PROJECT_DIR$/e3-common/src/main/java/cn/e3mial/common/utils/TaotaoResult.java" />
+        <option value="$PROJECT_DIR$/e3-manager-web/src/main/java/cn/e3mall/controller/LLPictureController.java" />
+        <option value="$PROJECT_DIR$/e3-manager/e3-manager-service/pom.xml" />
         <option value="$PROJECT_DIR$/e3-manager/e3-manager-interface/src/main/java/cn/e3mail/service/LLItemService.java" />
         <option value="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/java/cn/e3mail/service/impl/LLItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/e3-manager-web/src/main/java/cn/e3mall/controller/LLItemController.java" />
-        <option value="$PROJECT_DIR$/e3-manager-web/src/main/java/cn/e3mall/controller/LLPictureController.java" />
+        <option value="$PROJECT_DIR$/e3-manager-web/src/main/webapp/jsp/item-list.jsp" />
       </list>
     </option>
   </component>
@@ -297,6 +256,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-20" />
     <option name="y" value="23" />
     <option name="width" value="1901" />
     <option name="height" value="975" />
@@ -355,6 +315,15 @@
             </path>
             <path>
               <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
               <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -395,41 +364,6 @@
             <path>
               <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
               <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manager-pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manager-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manager-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manager-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manager-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
               <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -461,32 +395,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
@@ -578,7 +486,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553243414548" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553248864066" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -697,28 +605,29 @@
       <workItem from="1552312195363" duration="1999000" />
       <workItem from="1552351900040" duration="7693000" />
       <workItem from="1552986869109" duration="828000" />
-      <workItem from="1553220447396" duration="15874000" />
+      <workItem from="1553220447396" duration="21300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99890000" />
+    <option name="totallyTimeSpent" value="105316000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1901" height="975" extended-state="0" />
+    <frame x="-20" y="23" width="1901" height="975" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8907285" visible="true" weight="0.26788595" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.89058524" visible="true" weight="0.26788595" />
       <window_info id="Structure" order="1" sideWeight="0.5027933" side_tool="true" weight="0.27272728" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5027933" side_tool="true" weight="0.27272728" />
-      <window_info id="Web" order="7" sideWeight="0.10927153" side_tool="true" visible="true" weight="0.26788595" />
+      <window_info id="Web" order="7" sideWeight="0.10941476" side_tool="true" visible="true" weight="0.26788595" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49704143" weight="0.3216308" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.92791826" visible="true" weight="0.31596828" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49542764" weight="0.33635333" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.92630446" visible="true" weight="0.109852776" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -726,7 +635,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="10" visible="true" weight="0.31350115" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.07208177" side_tool="true" visible="true" weight="0.31596828" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.07369553" side_tool="true" visible="true" weight="0.109852776" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.30043858" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
@@ -756,27 +665,34 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/java/cn/e3mail/service/impl/LLItemServiceImpl.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/java/cn/e3mail/service/impl/LLItemServiceImpl.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/e3-manager-web/src/main/java/cn/e3mall/controller/LLItemController.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/e3-manager-web/src/main/java/cn/e3mall/controller/LLItemController.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/cn/e3mall/pojo/TbOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/cn/e3mall/pojo/TbOrderItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/cn/e3mall/pojo/TbOrderShipping.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -875,13 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2002">
-          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/resources/conf/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -899,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager-web/src/main/webapp/jsp/item-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/cn/e3mall/mapper/TbItemCatMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -917,16 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-interface/src/main/java/cn/e3mail/service/LLItemCategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -964,13 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="1829" lean-forward="true" selection-start-line="1829" selection-end-line="1829" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager-web/src/main/webapp/jsp/item-edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1045,13 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/e3-common/src/main/java/cn/e3mall/common/pojo/LLPageCommon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1059,30 +937,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/cn/e3mall/mapper/TbItemDescMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-interface/src/main/java/cn/e3mail/service/LLItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/cn/e3mall/pojo/TbItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-876">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1114,10 +968,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/java/cn/e3mail/service/impl/LLItemServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/e3-manager-web/src/main/webapp/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+        <state relative-caret-position="451">
+          <caret line="120" column="40" selection-start-line="120" selection-start-column="40" selection-end-line="120" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-interface/src/main/java/cn/e3mail/service/LLItemCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1131,15 +997,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager-web/src/main/webapp/js/common.js">
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/cn/e3mall/pojo/TbItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="120" column="40" selection-start-line="120" selection-start-column="40" selection-end-line="120" selection-end-column="40" />
+        <state relative-caret-position="110">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager-web/src/main/java/cn/e3mall/controller/LLPictureController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#622#641#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/cn/e3mall/pojo/TbItemDescExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/cn/e3mall/mapper/TbItemDescMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="24" column="97" selection-start-line="24" selection-start-column="97" selection-end-line="24" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="84" column="21" selection-start-line="81" selection-start-column="7" selection-end-line="84" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager-web/src/main/webapp/jsp/item-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-839">
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-interface/src/main/java/cn/e3mail/service/LLItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/java/cn/e3mail/service/impl/LLItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Maven/repository/com/alibaba/druid/1.1.14/druid-1.1.14.jar!/support/http/resources/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1152,19 +1086,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/e3-manager-web/src/main/java/cn/e3mall/controller/LLItemController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        <state relative-caret-position="390">
+          <caret line="48" column="46" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager-web/src/main/java/cn/e3mall/controller/LLPictureController.java">
+    <entry file="file://$PROJECT_DIR$/e3-manager-web/src/main/webapp/jsp/item-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#622#641#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="234">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="41" />
         </state>
       </provider>
     </entry>

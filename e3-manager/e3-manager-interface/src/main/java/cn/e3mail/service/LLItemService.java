@@ -9,4 +9,14 @@ public interface LLItemService {
     LLPageCommon<TbItem> getGridResult(Integer row ,Integer pagesize);
     //插入商品
     TaotaoResult addItem(TbItem item,String desc);
+
+    //删除该条商品
+    TaotaoResult deleteItem(long id);
+
+    //根据id查询该条商品描述
+    TaotaoResult findItemDescByIdToJson(long id);
+    //根据id查询该条商品
+    TaotaoResult findItemByIdToJson(long id);
+    //更新商品
+    TaotaoResult updateItem(TbItem item,String desc);
 }

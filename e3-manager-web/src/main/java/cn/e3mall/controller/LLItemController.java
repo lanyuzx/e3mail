@@ -36,4 +36,25 @@ public class LLItemController {
         TaotaoResult taotaoResult = itemService.addItem(item, desc);
         return taotaoResult;
     }
+
+    @RequestMapping("/rest/item/delete")
+    @ResponseBody
+    public  TaotaoResult deleteItem (long ids) {
+        TaotaoResult taotaoResult = itemService.deleteItem(ids);
+        return   taotaoResult;
+    }
+
+    @RequestMapping("/rest/item/query/item/desc/")
+    @ResponseBody
+    public TaotaoResult findItemDescByIdToJson( long ids) {
+        TaotaoResult taotaoResult = itemService.findItemDescByIdToJson(ids);
+       return  taotaoResult;
+    }
+    @RequestMapping(value = "/rest/item/param/item/query/",method = RequestMethod.GET)
+    @ResponseBody
+    public TaotaoResult findItemByIdToJson(@PathVariable  long id) {
+        TaotaoResult taotaoResult = itemService.findItemByIdToJson(id);
+        return  taotaoResult;
+    }
+
 }
