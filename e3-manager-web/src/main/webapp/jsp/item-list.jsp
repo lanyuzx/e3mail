@@ -51,62 +51,101 @@
         		$.messager.alert('提示','只能选择一个商品!');
         		return ;
         	}
-        	
+
         	$("#itemEditWindow").window({
-        		onLoad :function(){
-                    $.messager.alert('提示','来了莱迪');
-        			//回显数据
-        			var data = $("#itemList").datagrid("getSelections")[0];
-        			data.priceView = E3.formatPrice(data.price);
-        			$("#itemeEditForm").form("load",data);
-        			var param =  {"ids":data.id};
-        			$.post("/rest/item/query/item/desc/",param,function (_data) {
-                        itemEditEditor.html(_data.data.itemDesc);
-                    });
-        			// // 加载商品描述
-        			// $.getJSON('/rest/item/query/item/desc/'+data.id,function(_data){
-        			// 	if(_data.status == 200){
-        			// 		//UM.getEditor('itemeEditDescEditor').setContent(_data.data.itemDesc, false);
-        			// 		itemEditEditor.html(_data.data.itemDesc);
+                onOpen : function(){
+                    	//回显数据
+                    	var data = $("#itemList").datagrid("getSelections")[0];
+                    	data.priceView = E3.formatPrice(data.price);
+                    	$("#itemeEditForm").form("load",data);
+                    	// 加载商品描述
+                    	$.getJSON('/rest/item/query/item/desc/'+data.id,function(_data){
+                    	    alert(_data.data.itemDesc)
+                    		if(_data.status == 200){
+                    			//UM.getEditor('itemeEditDescEditor').setContent(_data.data.itemDesc, false);
+                    			itemEditEditor.html(_data.data.itemDesc);
+                    		}
+                    	});
+
+                    	//加载商品规格
+                    	$.getJSON('/rest/item/param/item/query/'+data.id,function(_data){
+                            alert(_data.data)
+                    		if(_data && _data.status == 200 && _data.data && _data.data.paramData){
+                    			$("#itemeEditForm .params").show();
+                    			$("#itemeEditForm [name=itemParams]").val(_data.data.paramData);
+                    			$("#itemeEditForm [name=itemParamId]").val(_data.data.id);
+
+                    			//回显商品规格
+                    			 var paramData = JSON.parse(_data.data.paramData);
+
+                    			 var html = "<ul>";
+                    			 for(var i in paramData){
+                    				 var pd = paramData[i];
+                    				 html+="<li><table>";
+                    				 html+="<tr><td colspan=\"2\" class=\"group\">"+pd.group+"</td></tr>";
+
+                    				 for(var j in pd.params){
+                    					 var ps = pd.params[j];
+                    					 html+="<tr><td class=\"param\"><span>"+ps.k+"</span>: </td><td><input autocomplete=\"off\" type=\"text\" value='"+ps.v+"'/></td></tr>";
+                    				 }
+
+                    				 html+="</li></table>";
+                    			 }
+                    			 html+= "</ul>";
+                    			 $("#itemeEditForm .params td").eq(1).html(html);
+                    		}
+                    	});
+                }
+        		// onLoad :function(){
+                //     alert("来了老弟")
+        		// 	//回显数据
+        		// 	var data = $("#itemList").datagrid("getSelections")[0];
+        		// 	data.priceView = E3.formatPrice(data.price);
+        		// 	$("#itemeEditForm").form("load",data);
+        		// 	// 加载商品描述
+        		// 	$.getJSON('/rest/item/query/item/desc/'+data.id,function(_data){
+        		// 		if(_data.status == 200){
+        		// 			//UM.getEditor('itemeEditDescEditor').setContent(_data.data.itemDesc, false);
+        		// 			itemEditEditor.html(_data.data.itemDesc);
+        		// 		}
+        		// 	});
+                //
+        		// 	//加载商品规格
+        		// 	$.getJSON('/rest/item/param/item/query/'+data.id,function(_data){
+        		// 		if(_data && _data.status == 200 && _data.data && _data.data.paramData){
+        		// 			$("#itemeEditForm .params").show();
+        		// 			$("#itemeEditForm [name=itemParams]").val(_data.data.paramData);
+        		// 			$("#itemeEditForm [name=itemParamId]").val(_data.data.id);
+                //
+        		// 			//回显商品规格
+        		// 			 var paramData = JSON.parse(_data.data.paramData);
+                //
+        		// 			 var html = "<ul>";
+        		// 			 for(var i in paramData){
+        		// 				 var pd = paramData[i];
+        		// 				 html+="<li><table>";
+        		// 				 html+="<tr><td colspan=\"2\" class=\"group\">"+pd.group+"</td></tr>";
+                //
+        		// 				 for(var j in pd.params){
+        		// 					 var ps = pd.params[j];
+        		// 					 html+="<tr><td class=\"param\"><span>"+ps.k+"</span>: </td><td><input autocomplete=\"off\" type=\"text\" value='"+ps.v+"'/></td></tr>";
+        		// 				 }
+                //
+        		// 				 html+="</li></table>";
+        		// 			 }
+        		// 			 html+= "</ul>";
+        		// 			 $("#itemeEditForm .params td").eq(1).html(html);
+        		// 		}
+        		// 	});
+
+        			// E3.init({
+        			// 	"pics" : data.image,
+        			// 	"cid" : data.cid,
+        			// 	fun:function(node){
+        			// 		E3.changeItemParam(node, "itemeEditForm");
         			// 	}
         			// });
-
-        			//加载商品规格
-        			$.getJSON('/rest/item/param/item/query/'+data.id,function(_data){
-        				if(_data && _data.status == 200 && _data.data && _data.data.paramData){
-        					$("#itemeEditForm .params").show();
-        					$("#itemeEditForm [name=itemParams]").val(_data.data.paramData);
-        					$("#itemeEditForm [name=itemParamId]").val(_data.data.id);
-
-        					//回显商品规格
-        					 var paramData = JSON.parse(_data.data.paramData);
-
-        					 var html = "<ul>";
-        					 for(var i in paramData){
-        						 var pd = paramData[i];
-        						 html+="<li><table>";
-        						 html+="<tr><td colspan=\"2\" class=\"group\">"+pd.group+"</td></tr>";
-
-        						 for(var j in pd.params){
-        							 var ps = pd.params[j];
-        							 html+="<tr><td class=\"param\"><span>"+ps.k+"</span>: </td><td><input autocomplete=\"off\" type=\"text\" value='"+ps.v+"'/></td></tr>";
-        						 }
-
-        						 html+="</li></table>";
-        					 }
-        					 html+= "</ul>";
-        					 $("#itemeEditForm .params td").eq(1).html(html);
-        				}
-        			});
-
-        			E3.init({
-        				"pics" : data.image,
-        				"cid" : data.cid,
-        				fun:function(node){
-        					E3.changeItemParam(node, "itemeEditForm");
-        				}
-        			});
-        		}
+        		//}
         	}).window("open");
         }
     },{

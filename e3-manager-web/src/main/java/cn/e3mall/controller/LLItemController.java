@@ -44,16 +44,18 @@ public class LLItemController {
         return   taotaoResult;
     }
 
-    @RequestMapping("/rest/item/query/item/desc/")
+    @RequestMapping("/rest/item/query/item/desc/{id}")
     @ResponseBody
-    public TaotaoResult findItemDescByIdToJson( long ids) {
-        TaotaoResult taotaoResult = itemService.findItemDescByIdToJson(ids);
+    public TaotaoResult findItemDescByIdToJson( @PathVariable long id) {
+        TaotaoResult taotaoResult = itemService.findItemDescByIdToJson(id);
+        System.out.println("查询了描述");
        return  taotaoResult;
     }
-    @RequestMapping(value = "/rest/item/param/item/query/",method = RequestMethod.GET)
+    @RequestMapping(value = "/rest/item/param/item/query/{id}")
     @ResponseBody
     public TaotaoResult findItemByIdToJson(@PathVariable  long id) {
         TaotaoResult taotaoResult = itemService.findItemByIdToJson(id);
+        System.out.println("查询了商品");
         return  taotaoResult;
     }
 

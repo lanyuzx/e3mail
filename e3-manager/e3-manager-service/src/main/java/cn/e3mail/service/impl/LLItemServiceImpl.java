@@ -87,16 +87,16 @@ public class LLItemServiceImpl implements LLItemService {
     @Override
     public TaotaoResult findItemDescByIdToJson(long id) {
        TbItemDesc itemDesc =  itemDescMapper.selectByPrimaryKey(id);
-       String itemDescJson  = new Gson().toJson(itemDesc);
-       TaotaoResult taotaoResult = new TaotaoResult(itemDescJson);
+       //String itemDescJson  = new Gson().toJson(itemDesc);
+       TaotaoResult taotaoResult = new TaotaoResult(itemDesc);
         return taotaoResult;
     }
 
     @Override
     public TaotaoResult findItemByIdToJson(long id) {
        TbItem item =  itemMapper.selectByPrimaryKey(id);
-       String itemJson = new Gson().toJson(item);
-       TaotaoResult taotaoResult = new TaotaoResult(itemJson);
+      // String itemJson = new Gson().toJson(item);
+       TaotaoResult taotaoResult = new TaotaoResult(item);
         return taotaoResult;
     }
 
