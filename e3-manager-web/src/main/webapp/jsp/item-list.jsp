@@ -62,14 +62,15 @@
                     	$.getJSON('/rest/item/query/item/desc/'+data.id,function(_data){
                     	    alert(_data.data.itemDesc)
                     		if(_data.status == 200){
+                                alert("11111")
                     			//UM.getEditor('itemeEditDescEditor').setContent(_data.data.itemDesc, false);
                     			itemEditEditor.html(_data.data.itemDesc);
-                    		}
+                            }
                     	});
 
                     	//加载商品规格
                     	$.getJSON('/rest/item/param/item/query/'+data.id,function(_data){
-                            alert(_data.data)
+                            alert(_data.status)
                     		if(_data && _data.status == 200 && _data.data && _data.data.paramData){
                     			$("#itemeEditForm .params").show();
                     			$("#itemeEditForm [name=itemParams]").val(_data.data.paramData);
