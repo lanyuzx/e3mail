@@ -107,14 +107,14 @@ public class LLItemServiceImpl implements LLItemService {
 
     @Override
     public TaotaoResult instockItem(long id) {
-        itemMapper.updateStateByPrimaryKey(id, 2);
+        itemMapper.updateStateByPrimaryKey(id, 2,new Date());
         TaotaoResult taotaoResult = new TaotaoResult(null);
         return taotaoResult;
     }
 
     @Override
     public TaotaoResult reshelfItem(long id) {
-        itemMapper.updateStateByPrimaryKey(id, 1);
+        itemMapper.updateStateByPrimaryKey(id, 1,new Date());
         TaotaoResult taotaoResult = new TaotaoResult(null);
         return taotaoResult;
     }

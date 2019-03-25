@@ -304,6 +304,6 @@
   </update>
   
   <update id="updateStateByPrimaryKey" >
-    update tb_item set status = #{status} where id = #{id}
+    update tb_item set status = #{status} ,updated = #{updateDate}  where id = #{id}
   </update>
 </mapper>
