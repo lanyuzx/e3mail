@@ -24,7 +24,7 @@ public class LLContentCategoryServiceImpl implements LLContentCategoryService {
        for (TbContentCategory category : categoryList){
            LLTreeNodeCommon nodeCommon = new LLTreeNodeCommon();
            nodeCommon.setId(category.getId());
-           nodeCommon.setState(category.getIsParent() ? "" : "");
+           nodeCommon.setState(category.getIsParent() ? "closed" : "open");
            nodeCommon.setText(category.getName());
            treeNodeCommonList.add(nodeCommon);
        }
