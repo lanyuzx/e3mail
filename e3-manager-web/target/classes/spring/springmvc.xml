@@ -33,5 +33,6 @@
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
     <dubbo:reference interface="cn.e3mail.service.LLItemService" id="LLItemServiceImpl" timeout="6000" />
     <dubbo:reference  interface="cn.e3mail.service.LLItemCategoryService" id="LLItemCategoryServiceImpl" timeout="6000"/>
+    <dubbo:reference  interface="cn.content.service.LLContentCategoryService" id="LLContentCategoryServiceImpl" timeout="6000"/>
 
 </beans>
