@@ -11,7 +11,6 @@ import cn.e3mial.common.utils.IDUtils;
 import cn.e3mial.common.utils.TaotaoResult;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.google.gson.Gson;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -104,5 +103,19 @@ public class LLItemServiceImpl implements LLItemService {
     public TaotaoResult updateItem(TbItem item, String desc) {
 
         return null;
+    }
+
+    @Override
+    public TaotaoResult instockItem(long id) {
+        itemMapper.updateStateByPrimaryKey(id, 2);
+        TaotaoResult taotaoResult = new TaotaoResult(null);
+        return taotaoResult;
+    }
+
+    @Override
+    public TaotaoResult reshelfItem(long id) {
+        itemMapper.updateStateByPrimaryKey(id, 1);
+        TaotaoResult taotaoResult = new TaotaoResult(null);
+        return taotaoResult;
     }
 }

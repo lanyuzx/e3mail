@@ -27,4 +27,6 @@ public interface TbItemMapper {
     int updateByPrimaryKeySelective(TbItem record);
 
     int updateByPrimaryKey(TbItem record);
+     //更新产品状态
+    int updateStateByPrimaryKey(@Param("id") Long id,@Param("status") int status);
 }

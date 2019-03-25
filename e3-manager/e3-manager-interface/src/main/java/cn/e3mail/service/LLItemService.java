@@ -19,4 +19,8 @@ public interface LLItemService {
     TaotaoResult findItemByIdToJson(long id);
     //更新商品
     TaotaoResult updateItem(TbItem item,String desc);
+    //下架产品
+    TaotaoResult instockItem(long id);
+    //上架产品
+    TaotaoResult reshelfItem(long id);
 }

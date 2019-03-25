@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class LLItemController {
@@ -44,19 +45,30 @@ public class LLItemController {
         return   taotaoResult;
     }
 
-    @RequestMapping("/rest/item/query/item/desc/{id}")
-    @ResponseBody
-    public TaotaoResult findItemDescByIdToJson( @PathVariable long id) {
-        TaotaoResult taotaoResult = itemService.findItemDescByIdToJson(id);
-        System.out.println("查询了描述");
-       return  taotaoResult;
+    @RequestMapping("/rest/item/edit")
+    public ModelAndView editdItem(long ids) {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("/item-edit");
+        //设置产品
+        TaotaoResult productItem = itemService.findItemByIdToJson(ids);
+        modelAndView.addObject("item", productItem.getData());
+        //设置描述
+        TaotaoResult itemDesc = itemService.findItemDescByIdToJson(ids);
+        modelAndView.addObject("itemDesc", itemDesc.getData());
+        return  modelAndView;
     }
-    @RequestMapping(value = "/rest/item/param/item/query/{id}")
+
+    @RequestMapping("/rest/item/instock")
     @ResponseBody
-    public TaotaoResult findItemByIdToJson(@PathVariable  long id) {
-        TaotaoResult taotaoResult = itemService.findItemByIdToJson(id);
-        System.out.println("查询了商品");
-        return  taotaoResult;
+    public TaotaoResult instockItem(long ids) {
+         TaotaoResult result =  itemService.instockItem(ids);
+        return  result;
+    }
+    @RequestMapping("/rest/item/reshelf")
+    @ResponseBody
+    public TaotaoResult reshelfItem(long ids) {
+        TaotaoResult result =  itemService.reshelfItem(ids);
+        return  result;
     }
 
 }

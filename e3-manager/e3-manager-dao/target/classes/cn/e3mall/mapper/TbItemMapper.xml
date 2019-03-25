@@ -302,4 +302,8 @@
       updated = #{updated,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=BIGINT}
   </update>
+  
+  <update id="updateStateByPrimaryKey" >
+    update tb_item set status = #{status} where id = #{id}
+  </update>
 </mapper>
