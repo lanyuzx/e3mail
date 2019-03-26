@@ -10,7 +10,7 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd"
        >
     <!--加载配置文件-->
-    <!--<context:property-placeholder location="classpath:conf/resources.properties" />-->
+    <context:property-placeholder location="classpath:conf/resources.properties" />
     <context:component-scan base-package="cn.e3mall.portal.controller" />
     <mvc:annotation-driven  />
     <mvc:default-servlet-handler/>
@@ -31,7 +31,7 @@
     <!-- 引用dubbo服务 -->
     <dubbo:application name="e3-manager-web" organization="jlc"/>
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
-    <!--<dubbo:reference interface="cn.e3mail.service.LLItemService" id="LLItemServiceImpl" timeout="6000" />-->
+    <dubbo:reference interface="cn.content.service.LLContentService" id="LLContentServiceImpl" timeout="6000" />
     <!--<dubbo:reference  interface="cn.e3mail.service.LLItemCategoryService" id="LLItemCategoryServiceImpl" timeout="6000"/>-->
 
 </beans>

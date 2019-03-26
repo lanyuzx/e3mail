@@ -7,6 +7,7 @@ import cn.e3mial.common.utils.TaotaoResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
@@ -27,9 +28,9 @@ public class LLContentController {
         return  pageCommon;
     }
 
-    @RequestMapping()
+    @RequestMapping("/content/delete")
     @ResponseBody
-    public TaotaoResult deleteItemContent(long ids) {
+    public TaotaoResult deleteItemContent(@RequestParam(name = "ids",defaultValue = "0") long ids) {
         TaotaoResult taotaoResult = contentService.deleteItenContent(ids);
         return  taotaoResult;
     }
