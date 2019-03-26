@@ -103,6 +103,10 @@
     </if>
   </delete>
   <insert id="insert" parameterType="cn.e3mall.pojo.TbContentCategory" >
+--    处理主键自增 order在插入之后执行  插入之后自动生成id
+<selectKey keyProperty="id" resultType="java.lang.Long" order="AFTER">
+  SELECT LAST_INSERT_ID()
+</selectKey>
     insert into tb_content_category (id, parent_id, name, 
       status, sort_order, is_parent, 
       created, updated)
