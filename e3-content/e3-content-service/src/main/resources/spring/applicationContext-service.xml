@@ -22,5 +22,6 @@
    <dubbo:protocol name="dubbo" port="20881" />
    <!-- 声明需要暴露的服务接口 -->
    <dubbo:service  interface="cn.content.service.LLContentCategoryService" ref="LLContentCategoryServiceImpl"/>
+    <dubbo:service  interface="cn.content.service.LLContentService" ref="LLContentServiceImpl"/>
 
 </beans>
