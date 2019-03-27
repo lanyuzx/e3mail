@@ -69,7 +69,7 @@ public class LLContentServiceImpl implements LLContentService {
     public List<TbContent> getAdContentList(long cid) {
         //先查询缓存是否存在
         try {
-            String contentJson = jedisClient.hget(IMAGE_PATH_URL, cid+"");
+            String contentJson = jedisClient.hget(CONTENT_LIST_KEY, Long.toString(cid));
             if (StringUtils.isNotBlank(contentJson)){
                 Type type = new TypeToken<List<TbContent>>(){}.getType();
                 List<TbContent> contentList = new Gson().fromJson(contentJson, type);
@@ -90,7 +90,7 @@ public class LLContentServiceImpl implements LLContentService {
         }
         //添加缓存
         try {
-            Long result  = jedisClient.hset(CONTENT_LIST_KEY, cid + "", new  Gson().toJson(contentList));
+            Long result  = jedisClient.hset(CONTENT_LIST_KEY, Long.toString(cid), new  Gson().toJson(contentList));
             System.out.println( "存储结果 === " + result);
         }catch (Exception e) {
             e.printStackTrace();
