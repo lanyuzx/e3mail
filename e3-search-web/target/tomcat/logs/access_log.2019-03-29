@@ -1,2 +1,7 @@
 0:0:0:0:0:0:0:1 - - [29/Mar/2019:17:55:33 +0800] "GET /search.html?keyword=%E6%89%8B%E6%9C%BA HTTP/1.1" 200 9389 http-bio-8085-exec-1 1348
 0:0:0:0:0:0:0:1 - - [29/Mar/2019:17:55:54 +0800] "GET /search.html?keyword=%E6%89%8B%E6%9C%BA HTTP/1.1" 200 9389 http-bio-8085-exec-2 46
+0:0:0:0:0:0:0:1 - - [29/Mar/2019:17:57:57 +0800] "GET /search.html?keyword=%E6%89%8B%E6%9C%BA HTTP/1.1" 200 9387 http-bio-8085-exec-4 274
+0:0:0:0:0:0:0:1 - - [29/Mar/2019:17:58:23 +0800] "GET /search.jsp?keyword=%E6%89%8B%E6%9C%BA HTTP/1.1" 404 971 http-bio-8085-exec-5 3
+0:0:0:0:0:0:0:1 - - [29/Mar/2019:17:58:23 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8085-exec-7 6
+0:0:0:0:0:0:0:1 - - [29/Mar/2019:17:59:46 +0800] "GET /search?keyword=%E6%89%8B%E6%9C%BA HTTP/1.1" 404 963 http-bio-8085-exec-9 1
+0:0:0:0:0:0:0:1 - - [29/Mar/2019:17:59:46 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8085-exec-1 1

@@ -15,7 +15,7 @@ public class LLSearchController {
     private LLSearchService searchService;
     @Value("${PAGE_ROWS}")
     private long PAGE_ROWS;
-    @RequestMapping("/search.html")
+    @RequestMapping("/search")
     public String searchItem(String keyword, @RequestParam(defaultValue="1") Integer page, Model model)  {
         try {
             LLSearchResult searchResult = searchService.searchItem(keyword, page, (int) PAGE_ROWS);
