@@ -1,2 +1,0 @@
-127.0.0.1 - - [29/Mar/2019:13:44:08 +0800] "POST /solr/ HTTP/1.1" 404 961 http-bio-8080-exec-1 104
-127.0.0.1 - - [29/Mar/2019:13:54:13 +0800] "POST /solr/new_core/update?wt=javabin&version=2 HTTP/1.1" 404 991 http-bio-8080-exec-3 2

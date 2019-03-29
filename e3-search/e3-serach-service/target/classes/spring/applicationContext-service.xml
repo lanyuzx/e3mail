@@ -12,6 +12,7 @@
 
    <context:component-scan base-package="cn.search.service"/>
     <context:component-scan base-package="cn.search.service.impl"/>
+    <context:component-scan base-package="cn.search.service.dao"/>
    <!--配置dobbo服务-->
     <dubbo:application name="e3-search" />
    <dubbo:registry protocol="zookeeper"
@@ -20,6 +21,6 @@
    <dubbo:protocol name="dubbo" port="20882" />
    <!-- 声明需要暴露的服务接口 -->
    <dubbo:service  interface="cn.search.service.LLSearchService" ref="LLSearchServiceImpl"/>
-    <!--<dubbo:service  interface="cn.content.service.LLContentService" ref="LLContentServiceImpl"/>-->
+
 
 </beans>
