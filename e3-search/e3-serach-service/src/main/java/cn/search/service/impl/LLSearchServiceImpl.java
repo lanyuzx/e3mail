@@ -10,7 +10,6 @@ import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.impl.HttpSolrClient;
 import org.apache.solr.common.SolrInputDocument;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
@@ -23,8 +22,7 @@ public class LLSearchServiceImpl implements LLSearchService {
 
     @Autowired
     private LLSearchDao searchDao;
-    @Value("${SORL_URL}")
-    private String solrUrl;
+    final String solrUrl = "http://127.0.0.1:8983/solr/new_core";
     //创建solrClient同时指定超时时间，不指定走默认配置
     HttpSolrClient solrClient = new HttpSolrClient.Builder(solrUrl)
             .withConnectionTimeout(10000)

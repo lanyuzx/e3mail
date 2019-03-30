@@ -7,7 +7,6 @@ import org.apache.solr.client.solrj.impl.HttpSolrClient;
 import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -16,8 +15,7 @@ import java.util.Map;
 
 @Repository
 public class LLSearchDao {
-    @Value("${SORL_URL}")
-    private String solrUrl;
+    final String solrUrl = "http://127.0.0.1:8983/solr/new_core";
     //创建solrClient同时指定超时时间，不指定走默认配置
     HttpSolrClient solrClient = new HttpSolrClient.Builder(solrUrl)
             .withConnectionTimeout(10000)
