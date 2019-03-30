@@ -85,11 +85,11 @@
   </div>
   
   <jsp:include page="commons/footer.jsp" />
-<script type="text/javascript" src="/js/common.js?v=20160713"></script>
-<script type="text/javascript" src="/js/cart.js?v=20160713"></script>
-<script type="text/javascript" src="/js/jquery.alerts.js"></script>
-<script type="text/javascript" src="/js/NewVersion.js?v=20160713"></script>
-<script type="text/javascript" src="/js/cookie.js?v=20160416222"></script>
-<script type="text/javascript" src="/js/shadow.js?v=20160416"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/common.js?v=20160713"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/cart.js?v=20160713"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.alerts.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/NewVersion.js?v=20160713"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/cookie.js?v=20160416222"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/shadow.js?v=20160416"></script>
 </div>
 </html>
