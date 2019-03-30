@@ -18,8 +18,8 @@ public class LLSearchController {
     @RequestMapping("/search")
     public String searchItem(String keyword, @RequestParam(defaultValue="1") Integer page, Model model)  {
         try {
-            LLSearchResult searchResult = searchService.searchItem(keyword, page, (int) PAGE_ROWS);
             keyword = new String(keyword.getBytes("iso8859-1"), "utf-8");
+            LLSearchResult searchResult = searchService.searchItem(keyword, page, (int) PAGE_ROWS);
             model.addAttribute("query", keyword);
             model.addAttribute("totalPages", searchResult.getTotalPages());
             model.addAttribute("recourdCount", searchResult.getRecourdCount());

@@ -8,11 +8,11 @@
 <meta http-equiv="Cache-Control" content="max-age=300" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>${query} - 商品搜索 - 宜立方商城</title>
-	<link rel="stylesheet" type="text/css" href="/css/productList.css" />
-<link rel="stylesheet" type="text/css" href="/css/base_w1200.css" />
-<link rel="stylesheet" type="text/css" href="/css/common.css" />
-<link rel="stylesheet" type="text/css" href="/css/jquery.alerts.css" />
-<script type="text/javascript" src="/js/jquery-1.5.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/productList.css" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/base_w1200.css" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/common.css" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/jquery.alerts.css" />
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.5.1.min.js"></script>
 </head>
 <body>
 <!-- header start -->
@@ -45,12 +45,12 @@
     <a name="prolist" id="prolist"></a>
     <div class="p-list">
       <ul class="list-all">
-         <c:forEach items="${itemList }" var="item">
+         <c:forEach items="${itemList }" var="item" varStatus="index">
          <li>
             <div class="l-wrap">
 				<div class="pic">
 					<a class="trackref" href="http://localhost:8086/item/${item.id}.html" title="" target="_blank">
-						<img src="${item.images[0] }" style="display:inline"/>
+						<img src="${item.images[0]}" style="display:inline"/>
 					</a>
 				</div>
 	            <div class="price">
