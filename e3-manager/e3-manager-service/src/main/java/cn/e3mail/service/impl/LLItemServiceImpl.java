@@ -12,8 +12,15 @@ import cn.e3mial.common.utils.TaotaoResult;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+import javax.jms.Destination;
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.Session;
 import java.util.Date;
 import java.util.List;
 
@@ -23,6 +30,7 @@ public class LLItemServiceImpl implements LLItemService {
     private TbItemMapper itemMapper;
     @Autowired
     private TbItemDescMapper itemDescMapper;
+
 
     @Override
     public TbItem getItemById(long itemId) {
@@ -46,7 +54,7 @@ public class LLItemServiceImpl implements LLItemService {
     public TaotaoResult addItem(TbItem item, String desc) {
         //补全数据
         //生成产品的id
-       long itemId =  IDUtils.genItemId();
+      final long itemId =  IDUtils.genItemId();
        item.setId(itemId);
         //生成创建时间
         Date createdData =  new Date();
@@ -69,7 +77,7 @@ public class LLItemServiceImpl implements LLItemService {
         System.out .println("插入结果 === " + result);
         itemMapper.insert(item);
         //创建返回结果pojo
-        TaotaoResult taotaoResult = new TaotaoResult(null);
+        TaotaoResult taotaoResult = new TaotaoResult(item);
         return taotaoResult;
     }
 

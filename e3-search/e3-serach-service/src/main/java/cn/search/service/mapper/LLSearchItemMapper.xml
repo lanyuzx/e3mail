@@ -6,4 +6,10 @@
     FROM tb_item b LEFT JOIN tb_item_cat c ON b.cid = c.id
     WHERE b.`status`= 1
   </select>
+  <select id="findSearchItemById" parameterType="java.lang.Long" resultType="cn.e3mall.common.pojo.LLSearchItem">
+    SELECT b.id,b.title,b.sell_point,b.price,b.image,c.`name` category_name
+    FROM tb_item b LEFT JOIN tb_item_cat c ON b.cid = c.id
+    WHERE b.`status`= 1
+    and b.id = #{itemId}
+  </select>
 </mapper>

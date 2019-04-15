@@ -1,3 +1,4 @@
 cn/search/service/mapper/LLSearchItemMapper.class
+cn/search/service/message/LLMessageListener.class
 cn/search/service/impl/LLSearchServiceImpl.class
 cn/search/service/dao/LLSearchDao.class

@@ -7,4 +7,5 @@ import java.util.List;
 public interface LLSearchItemMapper {
 
     List<LLSearchItem> getSearchItemList();
+    LLSearchItem findSearchItemById(long itemId);
 }
