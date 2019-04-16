@@ -14,7 +14,6 @@
         <module>e3-search-interface</module>
         <module>e3-serach-service</module>
         <module>../e3-search-web</module>
-        <module>e3-productdetail-web</module>
     </modules>
     <artifactId>e3-search</artifactId>
 

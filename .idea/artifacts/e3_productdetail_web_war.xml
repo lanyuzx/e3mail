@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="e3-productdetail-web:war">
-    <output-path>$PROJECT_DIR$/e3-search/e3-productdetail-web/target</output-path>
+    <output-path>$PROJECT_DIR$/e3-productdetail-web/target</output-path>
     <properties id="maven-jee-properties">
       <options>
         <module>e3-productdetail-web</module>
