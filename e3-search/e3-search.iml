@@ -47,5 +47,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-core:5.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.1.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: javax.jms:javax.jms-api:2.0.1" level="project" />
   </component>
 </module>

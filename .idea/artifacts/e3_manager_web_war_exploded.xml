@@ -42,6 +42,7 @@
           <element id="library" level="project" name="Maven: commons-io:commons-io:1.3.2" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.14" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.2" />
+          <element id="library" level="project" name="Maven: javax.jms:javax.jms-api:2.0.1" />
           <element id="archive" name="e3-contnet-interface-1.0-SNAPSHOT.jar">
             <element id="module-output" name="e3-contnet-interface" />
           </element>

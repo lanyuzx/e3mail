@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:35 +0800] "GET / HTTP/1.1" 404 951 http-bio-8082-exec-1 68
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:39 +0800] "GET /images/html/1472521250.jpg HTTP/1.1" 200 35712 http-bio-8082-exec-7 4
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:39 +0800] "GET /images/html/1468837571.jpg HTTP/1.1" 200 39049 http-bio-8082-exec-5 4
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:39 +0800] "GET /images/html/1463455028.jpg HTTP/1.1" 200 71569 http-bio-8082-exec-6 3
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:39 +0800] "GET /css/base_w1200.css?v=2016071333 HTTP/1.1" 200 57786 http-bio-8082-exec-3 22
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:39 +0800] "GET /js/jquery-1.4.2.min.js HTTP/1.1" 200 72174 http-bio-8082-exec-4 24
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:39 +0800] "GET /images/cate_bg.jpg HTTP/1.1" 200 296 http-bio-8082-exec-3 3
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:39 +0800] "GET /images/html/7a80fda907bf5107f6967add2a304a51.jpg HTTP/1.1" 200 7212 http-bio-8082-exec-4 4
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:39 +0800] "GET /images/goods/751d2091c008c2a49c1934545730f041.jpg HTTP/1.1" 200 45831 http-bio-8082-exec-10 3
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:39 +0800] "GET /images/goods/c11e0d59289782b09ea1cbcb98070017.jpg HTTP/1.1" 200 8696 http-bio-8082-exec-9 3
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:39 +0800] "GET /images/index_icon_new.png HTTP/1.1" 200 25879 http-bio-8082-exec-3 2
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:39 +0800] "GET /images/indexsprite.png HTTP/1.1" 200 5905 http-bio-8082-exec-4 2
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:39 +0800] "GET /index HTTP/1.1" 200 104412 http-bio-8082-exec-2 2820
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:39 +0800] "GET /images/goods/160x160-5.jpg HTTP/1.1" 200 6588 http-bio-8082-exec-3 1
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:39 +0800] "GET /images/goods/160x160-6.jpg HTTP/1.1" 200 6773 http-bio-8082-exec-4 1
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:39 +0800] "GET /images/foot/qq.jpg HTTP/1.1" 200 3596 http-bio-8082-exec-3 1
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:09:11:39 +0800] "GET /images/goods/160x160-4.jpg HTTP/1.1" 200 6685 http-bio-8082-exec-2 13

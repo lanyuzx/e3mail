@@ -7,6 +7,7 @@
     <file type="web" url="file://$PROJECT_DIR$/e3-manager/e3-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/e3-portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/e3-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/e3-search/e3-productdetail-web" />
     <file type="web" url="file://$PROJECT_DIR$/e3-search/e3-serach-service" />
   </component>
   <component name="MavenProjectsManager">
@@ -25,6 +26,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/e3-manager/e3-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-search/e3-productdetail-web/pom.xml" />
       </set>
     </option>
   </component>

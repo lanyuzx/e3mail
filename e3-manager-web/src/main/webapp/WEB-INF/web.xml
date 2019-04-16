@@ -4,10 +4,7 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
-  <context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:spring/applicationContext-activemq.xml</param-value>
-  </context-param>
+
 
   <!-- 解决post乱码 -->
   <filter>

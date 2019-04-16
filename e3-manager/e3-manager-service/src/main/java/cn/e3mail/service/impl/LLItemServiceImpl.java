@@ -31,7 +31,10 @@ public class LLItemServiceImpl implements LLItemService {
     @Autowired
     private TbItemDescMapper itemDescMapper;
 
-
+    @Autowired
+    private JmsTemplate jmsTemplate;
+    @Resource
+    private Destination topicDestination;
     @Override
     public TbItem getItemById(long itemId) {
 
@@ -76,6 +79,15 @@ public class LLItemServiceImpl implements LLItemService {
        int result =   itemDescMapper.insert(itemDesc);
         System.out .println("插入结果 === " + result);
         itemMapper.insert(item);
+
+        //发送消息 同步索引库
+        jmsTemplate.send(topicDestination,new MessageCreator() {
+            @Override
+            public Message createMessage(Session session) throws JMSException {
+                Message message = (Message) session.createTextMessage(itemId + "");
+                return message;
+            }
+        });
         //创建返回结果pojo
         TaotaoResult taotaoResult = new TaotaoResult(item);
         return taotaoResult;

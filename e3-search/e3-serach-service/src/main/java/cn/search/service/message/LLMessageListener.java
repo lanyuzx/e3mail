@@ -27,6 +27,8 @@ public class LLMessageListener implements MessageListener {
 
         TextMessage textMessage  = (TextMessage) message;
         try {
+            //这里停留几秒目的是为了同步事务
+            Thread.sleep(1000);
             String text = textMessage.getText();
             Long itemId = Long.parseLong(text);
             LLSearchItem searchItem = searchItemMapper.findSearchItemById(itemId);
