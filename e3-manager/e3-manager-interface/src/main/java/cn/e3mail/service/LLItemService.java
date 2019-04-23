@@ -2,10 +2,12 @@ package cn.e3mail.service;
 
 import cn.e3mall.common.pojo.LLPageCommon;
 import cn.e3mall.pojo.TbItem;
+import cn.e3mall.pojo.TbItemDesc;
 import cn.e3mial.common.utils.TaotaoResult;
 
 public interface LLItemService {
     TbItem getItemById(long itemId);
+
     LLPageCommon<TbItem> getGridResult(Integer row ,Integer pagesize);
     //插入商品
     TaotaoResult addItem(TbItem item,String desc);
@@ -23,4 +25,8 @@ public interface LLItemService {
     TaotaoResult instockItem(long id);
     //上架产品
     TaotaoResult reshelfItem(long id);
+
+    TbItemDesc getItemDescById(Long itemId);
+
+//    TbItemDesc getItemDescById(long itemId);
 }

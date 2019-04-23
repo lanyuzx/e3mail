@@ -1,6 +1,7 @@
 package cn.e3mail.service.impl;
 
 import cn.e3mail.service.LLItemService;
+import cn.e3mall.common.jedis.JedisClient;
 import cn.e3mall.common.pojo.LLPageCommon;
 import cn.e3mall.mapper.TbItemDescMapper;
 import cn.e3mall.mapper.TbItemMapper;
@@ -11,7 +12,10 @@ import cn.e3mial.common.utils.IDUtils;
 import cn.e3mial.common.utils.TaotaoResult;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.google.gson.Gson;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
@@ -35,11 +39,23 @@ public class LLItemServiceImpl implements LLItemService {
     private JmsTemplate jmsTemplate;
     @Resource
     private Destination topicDestination;
-    @Override
-    public TbItem getItemById(long itemId) {
 
-        return itemMapper.selectByPrimaryKey(itemId);
-    }
+    @Autowired
+    private JedisClient jedisClient;
+    //缓存详情的key
+    @Value("${Item_Product_Detail_KEY}")
+    private String  Item_Product_Detail_KEY;
+   //过期时间
+    @Value("${Item_Expiration_Time}")
+    private  Integer Item_Expiration_Time;
+
+    //详情缓存前缀
+    @Value("${Item_Info}")
+    private  String Item_Info;
+
+    @Value("${Item_Info_Desc}")
+    private  String Item_Info_Desc;
+
 
     @Override
     public LLPageCommon<TbItem> getGridResult(Integer row, Integer pagesize) {
@@ -138,4 +154,38 @@ public class LLItemServiceImpl implements LLItemService {
         TaotaoResult taotaoResult = new TaotaoResult(null);
         return taotaoResult;
     }
+
+    @Override
+    public TbItem getItemById(long itemId) {
+        //取出缓存
+     String json = jedisClient.get(Item_Info + ":" + itemId + ":BASE");
+     if (StringUtils.isNotBlank(json)) {
+         return  new Gson().fromJson(json, TbItem.class);
+     }
+     TbItem tbItem =  itemMapper.selectByPrimaryKey(itemId);
+     //添加缓存
+        jedisClient.set(Item_Info + ":" + itemId + ":BASE", new Gson().toJson(tbItem));
+        //设置过期时间为一个小时
+        jedisClient.expire(Item_Info + ":" + itemId + ":BASE", Item_Expiration_Time);
+        return tbItem;
+    }
+
+    @Override
+    public TbItemDesc getItemDescById(Long itemId) {
+        //取出缓存
+        String json = jedisClient.get(Item_Info_Desc + ":" + itemId + ":BASE");
+        if (StringUtils.isNotBlank(json)) {
+            return  new Gson().fromJson(json, TbItemDesc.class);
+        }
+        TbItemDesc tbItem =  itemDescMapper.selectByPrimaryKey(itemId);
+        //添加缓存
+        jedisClient.set(Item_Info_Desc + ":" + itemId + ":BASE", new Gson().toJson(tbItem));
+        //设置过期时间为一个小时
+        jedisClient.expire(Item_Info_Desc + ":" + itemId + ":BASE", Item_Expiration_Time);
+        return tbItem;
+    }
+
+
+
+
 }

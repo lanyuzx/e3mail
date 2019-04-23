@@ -31,6 +31,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>e3-item-web</servlet-name>
-    <url-pattern>/</url-pattern>
+      <!--伪静态化-->
+    <url-pattern>*.html</url-pattern>
   </servlet-mapping>
 </web-app>

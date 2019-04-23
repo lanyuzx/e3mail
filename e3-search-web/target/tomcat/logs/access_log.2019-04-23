@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [23/Apr/2019:11:19:08 +0800] "GET /search?keyword=iphone HTTP/1.1" 200 42531 http-bio-8085-exec-1 2771
+0:0:0:0:0:0:0:1 - - [23/Apr/2019:11:19:08 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8085-exec-3 5
+0:0:0:0:0:0:0:1 - - [23/Apr/2019:11:19:18 +0800] "GET /search.html?keyword=iphoneMA HTTP/1.1" 200 21308 http-bio-8085-exec-2 22
+0:0:0:0:0:0:0:1 - - [23/Apr/2019:11:19:18 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8085-exec-4 1
+0:0:0:0:0:0:0:1 - - [23/Apr/2019:11:19:21 +0800] "GET /search.html?keyword=iphone HTTP/1.1" 200 42531 http-bio-8085-exec-5 71
+0:0:0:0:0:0:0:1 - - [23/Apr/2019:11:19:21 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8085-exec-6 1
+0:0:0:0:0:0:0:1 - - [23/Apr/2019:11:24:46 +0800] "GET /search.html?keyword=IPhoneX HTTP/1.1" 200 21304 http-bio-8085-exec-9 22
+0:0:0:0:0:0:0:1 - - [23/Apr/2019:11:24:46 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8085-exec-1 1
+0:0:0:0:0:0:0:1 - - [23/Apr/2019:11:24:47 +0800] "GET /search.html?keyword=IPhoneX HTTP/1.1" 200 21304 http-bio-8085-exec-10 47
+0:0:0:0:0:0:0:1 - - [23/Apr/2019:11:24:50 +0800] "GET /search.html?keyword=IPhone HTTP/1.1" 200 42531 http-bio-8085-exec-10 67
+0:0:0:0:0:0:0:1 - - [23/Apr/2019:11:24:50 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8085-exec-1 1
