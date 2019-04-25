@@ -1,7 +1,7 @@
 package cn.e3mall.search.controller;
 
 import cn.e3mall.common.pojo.LLSearchResult;
-import cn.search.service.LLSearchService;
+import cn.sso.service.LLSearchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
