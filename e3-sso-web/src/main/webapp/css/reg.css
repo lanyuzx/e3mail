@@ -169,13 +169,13 @@ input::-ms-reveal{display: none;}
 .loginregTab .loginreg_show, .loginregTab .loginreg_hide{ display:block; float:left; cursor:pointer; position:relative; top:1px; margin:0 5px; width:87px; height:22px; padding-top:9px; text-align:center; font-size:14px; color:#565656; }
 .loginregTab .loginreg_hide{ background:url(/images/loginregbg1.jpg) left top no-repeat;}
 .loginregTab .loginreg_show{ background:url(/images/loginregbg.jpg) left top no-repeat; font-weight:bold;}
-.loginreg_main .loginRegForm{ position:; border-top:1px solid #ddd; min-height:260px; color:#515151;}
+.loginreg_main .loginRegForm{ border-top:1px solid #ddd; min-height:260px; color:#515151;}
 .loginreg_main .loginRegForm ul{ width:300px; margin:0 auto; padding:20px 0;}
 .loginreg_main .loginRegForm ul li{ position:relative;}
 .loginreg_main .loginRegForm span{ display:block;}
 .loginreg_main .loginRegForm .loginreg_title{ height:20px; line-height:20px; font-size:12px;}
 .loginreg_main .loginRegForm .loginreg_m{ width:294px; height:30px; line-height:30px;}
-.loginreg_main .regInput{ width:255px; height:30px; line-height:30px; *+height:28px; float:left; padding:0 5px; border:0 none; outline:none; background:#fff;}
+.loginreg_main .regInput{ width:255px; height:30px; line-height:30px; height:28px; float:left; padding:0 5px; border:0 none; outline:none; background:#fff;}
 .loginreg_main a.forgetPassword, .loginreg_main a.enterpriseUsers{ display:block; height:30px; line-height:30px;}
 .loginreg_main a.forgetPassword{ text-align:right; color:#aaa;}
 .loginreg_main a.forgetPassword:hover{ text-decoration:underline; color:#6e9b0c;}

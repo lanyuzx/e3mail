@@ -33,7 +33,7 @@
    <!-- 切面 -->
    <aop:config>
       <aop:advisor advice-ref="txAdvice"
-                   pointcut="execution(* cn.search.service..*.*(..))" />
+                   pointcut="execution(* cn.e3mail.sso.service..*.*(..))" />
    </aop:config>
 
 

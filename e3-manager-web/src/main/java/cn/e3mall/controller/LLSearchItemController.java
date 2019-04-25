@@ -1,7 +1,7 @@
 package cn.e3mall.controller;
 
 import cn.e3mial.common.utils.TaotaoResult;
-import cn.sso.service.LLSearchService;
+import cn.search.service.LLSearchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

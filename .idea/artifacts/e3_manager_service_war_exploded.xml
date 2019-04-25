@@ -25,7 +25,6 @@
           <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.11" />
           <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.6.0" />
-          <element id="library" level="project" name="Maven: javax.jms:javax.jms-api:2.0.1" />
           <element id="archive" name="e3-manager-interface-1.0-SNAPSHOT.jar">
             <element id="module-output" name="e3-manager-interface" />
           </element>
@@ -77,6 +76,7 @@
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.14" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.2" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-all:5.11.2" />
+          <element id="library" level="project" name="Maven: javax.jms:javax.jms-api:2.0.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">

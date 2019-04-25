@@ -30,13 +30,13 @@
         <constructor-arg value="itemAddTopic" />
     </bean>
 
-    <bean id="messageListener" class="LLMessageListener"/>
-    <!-- 消息监听容器 -->
-    <bean class="org.springframework.jms.listener.DefaultMessageListenerContainer">
-        <property name="connectionFactory" ref="connectionFactory" />
-        <property name="destination" ref="topicDestination" />
-        <property name="messageListener" ref="messageListener" />
-    </bean>
+    <!--<bean id="messageListener" class="LLMessageListener"/>-->
+    <!--&lt;!&ndash; 消息监听容器 &ndash;&gt;-->
+    <!--<bean class="org.springframework.jms.listener.DefaultMessageListenerContainer">-->
+        <!--<property name="connectionFactory" ref="connectionFactory" />-->
+        <!--<property name="destination" ref="topicDestination" />-->
+        <!--<property name="messageListener" ref="messageListener" />-->
+    <!--</bean>-->
 
 
 </beans>

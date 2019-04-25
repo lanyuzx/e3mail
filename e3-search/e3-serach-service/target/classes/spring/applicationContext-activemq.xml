@@ -30,7 +30,7 @@
         <constructor-arg value="itemAddTopic" />
     </bean>
 
-    <bean id="messageListener" class="cn.search.service.message.LLMessageListener"/>
+    <bean id="messageListener" class="cn.search.service.impl.message.LLMessageListener"/>
     <!-- 消息监听容器 -->
     <bean class="org.springframework.jms.listener.DefaultMessageListenerContainer">
         <property name="connectionFactory" ref="connectionFactory" />

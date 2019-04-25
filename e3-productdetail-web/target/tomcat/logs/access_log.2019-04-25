@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:41:04 +0800] "GET /js/shadow.js?v=20160416 HTTP/1.1" 200 964 http-bio-8086-exec-6 3
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:41:04 +0800] "GET /js/goods.js?v=20160713 HTTP/1.1" 200 1130 http-bio-8086-exec-3 2
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:41:04 +0800] "GET /js/jquery.cookie.js?v=20160713 HTTP/1.1" 200 3121 http-bio-8086-exec-4 3
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:41:04 +0800] "GET /js/jquery.alerts.js?v=20160713 HTTP/1.1" 200 13958 http-bio-8086-exec-2 4
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:41:04 +0800] "GET /js/jquery.qrcode.js?v=20160713 HTTP/1.1" 200 2834 http-bio-8086-exec-5 2
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:41:04 +0800] "GET /css/jquery.alerts.css?v=20160713 HTTP/1.1" 200 2441 http-bio-8086-exec-11 2
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:41:04 +0800] "GET /css/product.css?v=20160713 HTTP/1.1" 200 48608 http-bio-8086-exec-9 2
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:41:04 +0800] "GET /js/product.js?v=20160713 HTTP/1.1" 200 95036 http-bio-8086-exec-10 3
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:41:04 +0800] "GET /images/productinfo.png HTTP/1.1" 200 10200 http-bio-8086-exec-9 1
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:41:04 +0800] "GET /images/indexImg20130307.png?v=1.4 HTTP/1.1" 200 55428 http-bio-8086-exec-10 2
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:41:04 +0800] "GET /item/1027857.html HTTP/1.1" 200 164927 http-bio-8086-exec-1 3275
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:41:05 +0800] "GET /images/foot_bottom.png HTTP/1.1" 200 11815 http-bio-8086-exec-10 2
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:41:05 +0800] "GET /images/psprite.gif HTTP/1.1" 200 5921 http-bio-8086-exec-9 2
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:41:05 +0800] "GET /images/productattr3.png HTTP/1.1" 200 2011 http-bio-8086-exec-1 11
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:41:12 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8086-exec-4 2

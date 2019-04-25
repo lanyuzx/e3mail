@@ -26,7 +26,7 @@
     <dependencies>
         <dependency>
             <groupId>com.e3mail</groupId>
-            <artifactId>e3-manager-interface</artifactId>
+            <artifactId>e3-sso-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <!-- JSP相关 -->

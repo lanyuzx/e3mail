@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:40:59 +0800] "GET /js/e3mall.js HTTP/1.1" 200 652 http-bio-8085-exec-3 36
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:40:59 +0800] "GET /css/jquery.alerts.css HTTP/1.1" 200 754 http-bio-8085-exec-2 37
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:40:59 +0800] "GET /images/header.png HTTP/1.1" 200 10751 http-bio-8085-exec-5 2
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:40:59 +0800] "GET /search?keyword=%E6%89%8B%E6%9C%BA HTTP/1.1" 200 42969 http-bio-8085-exec-1 2520
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:10:40:59 +0800] "GET /js/cookie.js?v=20160416222 HTTP/1.1" 200 10745 http-bio-8085-exec-7 3
