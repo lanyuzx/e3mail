@@ -20,5 +20,6 @@
    <!-- 声明需要暴露的服务接口 -->
    <dubbo:service  interface="cn.e3mail.sso.service.LLResgistService" ref="LLResgistServiceImpl"/>
     <dubbo:service  interface="cn.e3mail.sso.service.LLLoginService" ref="LLLoginServiceImpl"/>
+    <dubbo:service  interface="cn.e3mail.sso.service.LLTokenService" ref="LLTokenServiceImpl"/>
 
 </beans>
