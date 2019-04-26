@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [26/Apr/2019:11:20:54 +0800] "GET /search?keyword= HTTP/1.1" 200 22089 http-bio-8085-exec-1 2260
+0:0:0:0:0:0:0:1 - - [26/Apr/2019:11:21:34 +0800] "GET /html/web/_public/_ajaxStaticMenu.html?v20140430 HTTP/1.1" 404 1025 http-bio-8085-exec-3 7
+0:0:0:0:0:0:0:1 - - [26/Apr/2019:11:21:45 +0800] "GET /search.html?keyword=%E6%89%8B%E6%9C%BA HTTP/1.1" 200 43748 http-bio-8085-exec-4 570
+0:0:0:0:0:0:0:1 - - [26/Apr/2019:11:21:53 +0800] "GET /html/web/_public/_ajaxStaticMenu.html?v20140430 HTTP/1.1" 404 1025 http-bio-8085-exec-6 3
