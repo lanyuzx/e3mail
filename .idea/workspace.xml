@@ -7,31 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c529200-c8d5-4452-8a04-6ae8e4b92f84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/e3-productdetail-web/src/main/webapp/js/jquery-1.4.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/js/jquery-1.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/e3_cart_interface_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/e3_cart_interface_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/e3_cart_service_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/e3_cart_service_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-cart-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-cart/e3-cart-interface/e3-cart-interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-cart/e3-cart-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-cart/e3-cart-service/e3-cart-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-cart/e3-cart-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/conf/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/conf/resources.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/spring/applicationContext-activemq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/spring/applicationContext-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/spring/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-cart/e3-cart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-cart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/tomcat/logs/access_log.2019-04-26" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/target/tomcat/logs/access_log.2019-04-26" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-portal-web/target/tomcat/logs/access_log.2019-04-26" beforeDir="false" afterPath="$PROJECT_DIR$/e3-portal-web/target/tomcat/logs/access_log.2019-04-26" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/shortcut_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/shortcut_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-productdetail-web/src/main/webapp/js/jquery-1.5.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-productdetail-web/src/main/webapp/jsp/commons/shortcut.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/e3-productdetail-web/src/main/webapp/jsp/commons/shortcut.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-productdetail-web/target/tomcat/logs/access_log.2019-04-26" beforeDir="false" afterPath="$PROJECT_DIR$/e3-productdetail-web/target/tomcat/logs/access_log.2019-04-26" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-productdetail-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/footer_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-productdetail-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/footer_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-productdetail-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/header_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-productdetail-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/header_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-productdetail-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/mainmenu_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-productdetail-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/mainmenu_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-productdetail-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/shortcut_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-productdetail-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/shortcut_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-productdetail-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/item_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-productdetail-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/item_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-search-web/src/main/webapp/js/e3mall.js" beforeDir="false" afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/js/e3mall.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-search-web/src/main/webapp/js/jquery-1.5.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-search-web/src/main/webapp/jsp/commons/shortcut.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/jsp/commons/shortcut.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-search-web/src/main/webapp/jsp/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/jsp/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-search-web/target/tomcat/logs/access_log.2019-04-26" beforeDir="false" afterPath="$PROJECT_DIR$/e3-search-web/target/tomcat/logs/access_log.2019-04-26" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-search-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/footer_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-search-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/footer_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-search-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/header_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-search-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/header_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-search-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/mainmenu_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-search-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/mainmenu_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-search-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/shortcut_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-search-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/commons/shortcut_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-search-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/search_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-search-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/jsp/search_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-sso-web/target/tomcat/logs/access_log.2019-04-26" beforeDir="false" afterPath="$PROJECT_DIR$/e3-sso-web/target/tomcat/logs/access_log.2019-04-26" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/e3-parent/target/" />
     <ignored path="$PROJECT_DIR$/e3-common/target/" />
@@ -56,6 +56,12 @@
     <ignored path="$PROJECT_DIR$/e3-sso/e3-sso-interface/target/" />
     <ignored path="$PROJECT_DIR$/e3-sso/e3-sso-service/target/" />
     <ignored path="$PROJECT_DIR$/e3-sso-web/target/" />
+    <ignored path="$PROJECT_DIR$/e3-cart-service/target/" />
+    <ignored path="$PROJECT_DIR$/e3-cart-service/e3-cart-interface/target/" />
+    <ignored path="$PROJECT_DIR$/e3-cart/e3-cart-interface/target/" />
+    <ignored path="$PROJECT_DIR$/e3-cart/target/" />
+    <ignored path="$PROJECT_DIR$/e3-cart/e3-cart-service/target/" />
+    <ignored path="$PROJECT_DIR$/e3-cart-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,82 +91,86 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e3-search-web/src/main/webapp/jsp/commons/shortcut.jsp">
+        <entry file="file://$PROJECT_DIR$/e3-cart/e3-cart-interface/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="11" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="376">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e3-search-web/src/main/webapp/js/e3mall.js">
+        <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="308">
+              <caret line="14" column="13" selection-start-line="6" selection-start-column="2" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e3-portal-web/src/main/webapp/jsp/commons/shortcut.jsp">
+        <entry file="file://$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="352">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e3-portal-web/src/main/webapp/jsp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/e3-cart-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="74" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="74" />
+            <state relative-caret-position="508">
+              <caret line="134" column="30" selection-start-line="134" selection-start-column="30" selection-end-line="134" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e3-search-web/src/main/webapp/jsp/search.jsp">
+        <entry file="file://$PROJECT_DIR$/e3-cart/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1327">
-              <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+            <state relative-caret-position="677">
+              <caret line="99" column="32" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e3-search-web/src/main/webapp/jsp/commons/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e3-search-web/src/main/webapp/js/jquery-1.4.2.min.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/e3-productdetail-web/src/main/webapp/jsp/commons/shortcut.jsp">
+        <entry file="file://$PROJECT_DIR$/e3-cart-web/src/main/resources/conf/resources.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/e3-manager-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="97" column="33" lean-forward="true" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+            <state relative-caret-position="620">
+              <caret line="138" column="12" selection-start-line="24" selection-start-column="4" selection-end-line="138" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e3-productdetail-web/src/main/webapp/js/jquery-1.4.2.min.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/spring/applicationContext-dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="596">
+              <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e3-productdetail-web/src/main/webapp/jsp/item.jsp">
+        <entry file="file://$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/spring/applicationContext-redis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-796" />
+            <state relative-caret-position="-164" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/spring/applicationContext-service.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="592">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -185,17 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/resources/conf/resources.properties" />
-        <option value="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/java/cn/e3mail/service/impl/LLItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/e3-sso/pom.xml" />
-        <option value="$PROJECT_DIR$/e3-sso/e3-sso-service/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/e3-sso-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/e3-sso-web/src/main/webapp/css/login.css" />
-        <option value="$PROJECT_DIR$/e3-sso-web/src/main/webapp/css/reg.css" />
-        <option value="$PROJECT_DIR$/e3-sso/e3-sso-service/src/main/resources/spring/applicationContext-activemq.xml" />
-        <option value="$PROJECT_DIR$/e3-search/e3-search-interface/src/main/java/cn/sso/service/LLSearchService.java" />
-        <option value="$PROJECT_DIR$/e3-search/e3-search-interface/src/main/java/cn/search/LLSearchService.java" />
-        <option value="$PROJECT_DIR$/e3-search/e3-search-interface/src/main/java/cn/search/service/LLSearchService.java" />
         <option value="$PROJECT_DIR$/e3-search/e3-serach-service/src/main/java/cn/search/service/impl/impl/LLSearchServiceImpl.java" />
         <option value="$PROJECT_DIR$/e3-search-web/src/main/java/cn/e3mall/search/controller/LLSearchController.java" />
         <option value="$PROJECT_DIR$/e3-manager-web/src/main/java/cn/e3mall/controller/LLSearchItemController.java" />
@@ -236,6 +235,17 @@
         <option value="$PROJECT_DIR$/e3-search-web/src/main/webapp/js/e3mall.js" />
         <option value="$PROJECT_DIR$/e3-search-web/src/main/webapp/jsp/commons/shortcut.jsp" />
         <option value="$PROJECT_DIR$/e3-productdetail-web/src/main/webapp/jsp/commons/shortcut.jsp" />
+        <option value="$PROJECT_DIR$/e3-cart-service/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-cart-service/e3-cart-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-cart/e3-cart-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/conf/resources.properties" />
+        <option value="$PROJECT_DIR$/e3-cart/e3-cart-service/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/spring/applicationContext-trans.xml" />
+        <option value="$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/e3-cart-web/pom.xml" />
       </list>
     </option>
   </component>
@@ -266,12 +276,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="e3-sso" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="e3-sso" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="e3-cart" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -281,8 +286,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
-    <option name="y" value="28" />
+    <option name="x" value="116" />
+    <option name="y" value="116" />
     <option name="width" value="1902" />
     <option name="height" value="1001" />
   </component>
@@ -294,116 +299,60 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-productdetail-web" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-cart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-productdetail-web" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-cart-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-cart-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-productdetail-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-productdetail-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-productdetail-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-productdetail-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-productdetail-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-search-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-search-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-search-web" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-cart-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-search-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-search-web" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-search-web" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3mail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-search-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-sso-web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556261521697" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556267517829" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/e3-search/e3-search-interface/src/main/java/cn/search" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -414,22 +363,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/e3-sso/e3-sso-service/src/main" />
-      <recent name="$PROJECT_DIR$/e3-content/e3-content-service/src/main" />
-      <recent name="$PROJECT_DIR$/e3-manager-web/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/e3-manager-web/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/e3-cart-web/src/main" />
+      <recent name="$PROJECT_DIR$/e3-cart/e3-cart-service/src/main" />
       <recent name="$PROJECT_DIR$/e3-search-web/src/main/webapp/js" />
       <recent name="$PROJECT_DIR$/e3-productdetail-web/src/main/webapp/js" />
       <recent name="$PROJECT_DIR$/e3-common/src/main/java/cn/e3mial/common/utils" />
-      <recent name="$PROJECT_DIR$/e3-sso-web/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/e3-sso-web/src/main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/e3-sso/e3-sso-service/src/main" />
+      <recent name="$PROJECT_DIR$/e3-content/e3-content-service/src/main" />
+      <recent name="$PROJECT_DIR$/e3-manager-web/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/e3-manager-web/src/main/webapp/WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -764,12 +713,15 @@
       <workItem from="1555989075427" duration="2170000" />
       <workItem from="1556154769085" duration="22066000" />
       <workItem from="1556194053183" duration="1544000" />
-      <workItem from="1556239124215" duration="12598000" />
+      <workItem from="1556239124215" duration="14579000" />
+      <workItem from="1556266129305" duration="20000" />
+      <workItem from="1556266153451" duration="93000" />
+      <workItem from="1556266274509" duration="1092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260451000" />
+    <option name="totallyTimeSpent" value="263637000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -781,20 +733,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="28" width="1902" height="1001" extended-state="0" />
+    <frame x="52" y="25" width="1902" height="1001" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8733087" visible="true" weight="0.20376344" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6698113" visible="true" weight="0.21021505" />
       <window_info id="Structure" order="1" sideWeight="0.5027933" side_tool="true" weight="0.27272728" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5027933" side_tool="true" weight="0.27272728" />
-      <window_info id="Web" order="7" sideWeight="0.12669127" side_tool="true" visible="true" weight="0.20376344" />
+      <window_info id="Web" order="7" sideWeight="0.3301887" side_tool="true" weight="0.21021505" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.20788531" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7039404" weight="0.5929593" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.90681577" visible="true" weight="0.105610564" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.90681577" weight="0.105610564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946752" weight="0.32894737" />
@@ -803,7 +755,7 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="10" visible="true" weight="0.31350115" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005325" side_tool="true" weight="0.32894737" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4991931" visible="true" weight="0.17323776" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4991931" visible="true" weight="0.07480748" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -812,7 +764,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.4990476" visible="true" weight="0.14838709" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.4990476" visible="true" weight="0.2629032" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32967034" />
@@ -867,148 +819,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/e3-search/e3-serach-service/src/main/java/cn/search/service/impl/dao/LLSearchDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-sso/e3-sso-service/src/main/resources/spring/applicationContext-solr.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/java/cn/e3mail/service/impl/LLItemCategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/java/cn/e3mail/service/impl/LLItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/resources/spring/applicationContext-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-454">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="195" column="19" selection-start-line="191" selection-start-column="5" selection-end-line="195" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-sso/e3-sso-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-sso/e3-sso-service/src/main/java/cn/e3mail/sso/service/impl/LLResgistServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-common/src/main/java/cn/e3mial/common/utils/CookieUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1371">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-sso/e3-sso-service/src/main/resources/spring/applicationContext-trans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-sso/e3-sso-service/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="71" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-search-web/src/main/resources/conf/resources.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-search-web/src/main/java/cn/e3mall/search/controller/LLSearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#574#588#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-sso/e3-sso-interface/src/main/java/cn/e3mail/sso/service/LLTokenService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-sso/e3-sso-service/src/main/java/cn/e3mail/sso/service/impl/LLLoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="49" column="45" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#767#791#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-sso/e3-sso-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-sso-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/e3-sso/e3-sso-service/src/main/resources/conf/resources.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1109,13 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e3-sso-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1273">
-          <caret line="40" column="21" selection-start-line="36" selection-start-column="6" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/e3-sso-web/src/main/java/cn/e3mall/sso/controller/LLTokenController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1179,7 +982,7 @@
     <entry file="file://$PROJECT_DIR$/e3-portal-web/src/main/webapp/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="74" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="74" />
+          <caret line="15" column="74" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -1189,21 +992,21 @@
     <entry file="file://$PROJECT_DIR$/e3-search-web/src/main/webapp/jsp/search.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1327">
-          <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/e3-search-web/src/main/webapp/js/e3mall.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/e3-search-web/src/main/webapp/jsp/commons/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1217,16 +1020,140 @@
     <entry file="file://$PROJECT_DIR$/e3-search-web/src/main/webapp/jsp/commons/shortcut.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="11" selection-end-column="11" />
+          <caret line="11" column="11" selection-start-line="6" selection-start-column="5" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/e3-productdetail-web/src/main/webapp/jsp/commons/shortcut.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="97" column="33" lean-forward="true" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+        <state relative-caret-position="128">
+          <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="88" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-sso-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1351">
+          <caret line="40" column="21" selection-start-line="36" selection-start-column="6" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="36" column="19" selection-start-line="30" selection-start-column="3" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="97" column="19" selection-start-line="23" selection-start-column="3" selection-end-line="97" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/java/cn/e3mail/service/impl/LLItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/conf/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/conf/resources.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/spring/applicationContext-activemq.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-366" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-cart/e3-cart-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/spring/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/spring/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-cart/e3-cart-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="13" selection-start-line="6" selection-start-column="2" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="138" column="12" selection-start-line="24" selection-start-column="4" selection-end-line="138" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-cart-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="134" column="30" selection-start-line="134" selection-start-column="30" selection-end-line="134" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-cart/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="99" column="32" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-cart-web/src/main/resources/conf/resources.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1282,7 +1209,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>e3-sso-web</last-edited>
+          <last-edited>e3-manager-interface</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
