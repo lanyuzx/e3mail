@@ -1,14 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" isELIgnored="false" pageEncoding="UTF-8"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <div class="topMenu">
   <div class="pW">
     
     <ul class="fr topTh">
       <li class="login" id="login">
       	<span id="loginbar" style="margin-right: 15px;">
-	      	<a href="https://passport.e3mall.cn/?returnUrl=http%3A//www.e3mall.cn/">请登录</a>
+	      	<a href="http://localhost:8088/page/login">请登录</a>
       	</span>
-      	<a href="https://passport.e3mall.cn/reg/?returnUrl=http%3A//www.e3mall.cn/">免费注册</a>
+      	<a href="http://localhost:8088/register">免费注册</a>
       </li>
       <!--<li id='qiyeLogin'><a href='http://www.sfme.me/login.jhtml' target='_blank' rel='nofollow'>员工福利</a></li>-->
       <li class="myOrder"><a name="sfbest_hp_hp_head_OrderList" class="trackref" href="http://home.e3mall.cn/myorder/index/" rel="nofollow">我的订单</a></li>
@@ -104,39 +104,10 @@
     <span class="clear"></span>
   </div>
 
-  <script>
-    var E3MALL = {
-      checkLogin : function(){
-        var _ticket = $.cookie("token");
-        if(!_ticket){
-          return ;
-        }
-        $.ajax({
-          url : "http://localhost:8088/user/token/" + _ticket,
-          dataType : "jsonp",
-          type : "GET",
-          success : function(data){
-            if(data.status == 200){
-              var username = data.data.username;
-              var html = username + "，欢迎来到宜立方购物网！<a href=\"http://www.e3mall.cn/user/logout.html\" class=\"link-logout\">[退出]</a>";
-              $("#loginbar").html(html);
-            }
-          }
-        });
-
-
-      }
-
-    }
-
-    $(function(){
-      // 查看是否已经登录，如果已经登录查询登录信息
-      E3MALL.checkLogin();
-    });
-  </script>
 
 
 
-  <%--<script type="text/javascript" src="${pageContext.request.contextPath}/js/e3mall.js"></script>--%>
+
+  <script type="text/javascript" src="${pageContext.request.contextPath}/js/e3mall.js?ttttt"></script>
   <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.cookie.js"></script>
 </div>

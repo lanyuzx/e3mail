@@ -29,3 +29,4 @@
 0:0:0:0:0:0:0:1 - - [26/Apr/2019:10:41:28 +0800] "GET /images/uploadFile/1a71d0139f672b3c.png HTTP/1.1" 200 4531 http-bio-8081-exec-8 3
 0:0:0:0:0:0:0:1 - - [26/Apr/2019:10:41:28 +0800] "GET /images/uploadFile/5baddb40N0d7833b8.jpg HTTP/1.1" 200 927 http-bio-8081-exec-4 15
 0:0:0:0:0:0:0:1 - - [26/Apr/2019:10:41:28 +0800] "GET /images/uploadFile/5baddb39N3a44fca3.jpg HTTP/1.1" 200 2298 http-bio-8081-exec-7 6
+0:0:0:0:0:0:0:1 - - [26/Apr/2019:14:25:07 +0800] "GET /index HTTP/1.1" 200 3476 http-bio-8081-exec-9 138

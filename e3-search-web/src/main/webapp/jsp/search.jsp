@@ -12,7 +12,7 @@
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/base_w1200.css" />
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/common.css" />
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/jquery.alerts.css" />
-<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.5.1.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.4.2.min.js"></script>
 </head>
 <body>
 <!-- header start -->
