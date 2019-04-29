@@ -82,4 +82,10 @@ public class LLCartServiceImpl implements LLCartService {
         String redisCartKey  =  REDIS_CART_PRE + userId;
         jedisClient.hdel(redisCartKey,itemId + "");
     }
+
+    @Override
+    public void clearCart(long userId) {
+        String redisCartKey  =  REDIS_CART_PRE + userId;
+        jedisClient.del(redisCartKey);
+    }
 }

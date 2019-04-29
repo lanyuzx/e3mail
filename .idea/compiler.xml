@@ -17,6 +17,9 @@
         <module name="e3-manager-pojo" />
         <module name="e3-manager-service" />
         <module name="e3-manager-web" />
+        <module name="e3-order-interface" />
+        <module name="e3-order-service" />
+        <module name="e3-order-web" />
         <module name="e3-portal-web" />
         <module name="e3-productdetail-web" />
         <module name="e3-search-interface" />
@@ -42,6 +45,10 @@
       <module name="e3-manager-pojo" target="1.8" />
       <module name="e3-manager-service" target="1.8" />
       <module name="e3-manager-web" target="1.8" />
+      <module name="e3-order" target="1.8" />
+      <module name="e3-order-interface" target="1.8" />
+      <module name="e3-order-service" target="1.8" />
+      <module name="e3-order-web" target="1.8" />
       <module name="e3-parent" target="1.8" />
       <module name="e3-portal-web" target="1.8" />
       <module name="e3-productdetail-web" target="1.8" />

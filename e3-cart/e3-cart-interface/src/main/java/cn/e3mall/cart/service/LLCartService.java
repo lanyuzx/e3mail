@@ -17,4 +17,6 @@ public interface LLCartService {
     void updateItem(long userId,long itemId , int num);
 
     void deleteItem(long userId,long itemId);
+    ///清空购物车
+    void clearCart(long userId);
 }
