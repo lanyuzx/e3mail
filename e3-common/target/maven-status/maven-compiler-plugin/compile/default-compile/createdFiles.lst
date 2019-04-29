@@ -7,4 +7,5 @@ cn/e3mall/common/pojo/LLSearchResult.class
 cn/e3mial/common/utils/CookieUtils.class
 cn/e3mall/common/pojo/LLSearchItem.class
 cn/e3mall/common/jedis/JedisClient.class
+cn/e3mial/common/utils/JsonUtils.class
 cn/e3mall/common/pojo/LLPageCommon.class

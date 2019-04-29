@@ -108,6 +108,6 @@
 
 
 
-  <script type="text/javascript" src="${pageContext.request.contextPath}/js/e3mall.js?ttttt"></script>
+  <script type="text/javascript" src="${pageContext.request.contextPath}/js/e3mall.js?ddd"></script>
   <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.cookie.js"></script>
 </div>

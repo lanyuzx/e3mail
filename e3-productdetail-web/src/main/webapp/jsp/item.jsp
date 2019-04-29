@@ -6,6 +6,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>${item.title } - 宜立方商城</title>
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
 	<script>
         var _SF_CFG = {
 	    www_url:'http://www.e3mall.cn',
@@ -32,11 +35,10 @@
 		commentType : 0
 	};
 	</script>
-	
-	<script src="/js/jquery-1.5.1.min.js?v=20160713" type="text/javascript"></script>
+    <script src="/js/jquery-1.4.2.min.js?v=20160713" type="text/javascript"></script>
 <script src="/js/jquery.alerts.js?v=20160713" type="text/javascript"></script>
 <script src="/js/common.js?v=20160713" type="text/javascript"></script>
-<script src="/js/cart.js?v=20160713" type="text/javascript"></script>
+<script src="/js/cart.js?" + Math.random() type="text/javascript"></script>
 <script src="/js/cloud-zoom.1.0.2.min.js?v=20160713" type="text/javascript"></script>
 <script src="/js/jquery.thickbox.js?v=20160713" type="text/javascript"></script>
 <script src="/js/goods.js?v=20160713" type="text/javascript"></script>

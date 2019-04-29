@@ -18,6 +18,7 @@
     <url-pattern>/*</url-pattern>
   </filter-mapping>
 
+
   <!-- springmvc的前端控制器 -->
   <servlet>
     <servlet-name>e3-cart-web</servlet-name>
@@ -33,4 +34,10 @@
     <servlet-name>e3-cart-web</servlet-name>
     <url-pattern>*.html</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>e3-cart-web</servlet-name>
+    <url-pattern>*.action</url-pattern>
+  </servlet-mapping>
+
+
 </web-app>

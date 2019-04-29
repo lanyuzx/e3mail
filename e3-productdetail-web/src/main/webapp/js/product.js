@@ -2083,6 +2083,7 @@ function oneKeyBuy(product_id,cart_type,opencity_id, flag,bs, obj, cfrom) {
   
 	var alsoBuy = '';
 	var web_url = cartHostUrl+'/cart/addCart/';
+	alert(web_url)
     var number = 1;
     if($("#number_"+product_id).length!=0){
       number = $("#number_"+product_id).val();
