@@ -24,7 +24,7 @@ public class LLLoginController {
 
     @RequestMapping("/user/login")
     @ResponseBody
-    public TaotaoResult userLogin(TbUser user, HttpServletRequest request, HttpServletResponse response) {
+    public TaotaoResult userLogin(TbUser user, HttpServletRequest request, HttpServletResponse response,String redirect) {
       TaotaoResult result =  loginService.userLogin(user);
       //把生成的token写入cooker
         if (result.getStatus() == 200) {

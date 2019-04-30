@@ -140,7 +140,7 @@
 							if (redirectUrl == "") {
 								location.href = "http://localhost:8082/index";
 							} else {
-								location.href = redirectUrl;
+								location.href = "http://localhost:8090/cart/cart.html";
 							}
 						});
 						

@@ -39,7 +39,7 @@ public class LLOrderController {
       if (taotaoResult.getStatus() == 200) {
           cartService.clearCart(tbUser.getId());
       }
-      request.setAttribute("payment", Long.getLong(orderInfo.getPayment()));
+      request.setAttribute("payment", orderInfo.getPayment());
       request.setAttribute("orderId", taotaoResult.getData());
       return "success";
     }
